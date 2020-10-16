@@ -47,7 +47,6 @@ var Entertaining = /** @class */ (function (_super) {
     __extends(Entertaining, _super);
     function Entertaining(created, country, city, place, type, address, img, activity, website, price, date) {
         var _this = _super.call(this, created, country, city, place, type, address, img) || this;
-        _this.activity = "";
         _this.activity = activity;
         _this.website = website;
         _this.price = price;

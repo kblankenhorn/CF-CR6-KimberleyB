@@ -70,9 +70,10 @@ class Restaurants extends Travel {
 }
 
 class Entertaining extends Travel {
-	activity: string = "";
+	activity: string;
 	website: string;
-	price: "string";
+	price: string;
+	date: string;
 
 	constructor(created: string, country: string, city: string, place: string, type: string, address: string, img: string, activity:string, website: string, price: string, date: string){
 		super(created, country, city, place, type, address, img);
