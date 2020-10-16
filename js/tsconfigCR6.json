@@ -1,0 +1,22 @@
+{
+   "compilerOptions": {
+       "target": "ES6" ,
+       
+       "experimentalDecorators": true ,
+       "outFile": "./",
+       "outDir": "./"
+   },
+   "lib":
+   ["dom",
+       "ES5",
+       "ES6",
+       "ES2015"
+   ]
+}
+{
+  "exclude": [
+    "typings/browser.d.ts",
+    "typings/browser",
+    "node_modules"
+  ]
+}
