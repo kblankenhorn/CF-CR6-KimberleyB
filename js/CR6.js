@@ -59,11 +59,11 @@ var Entertaining = /** @class */ (function (_super) {
     return Entertaining;
 }(Travel));
 var tokyo = new Travel("Japan", "Kyoto", "Fushimi Inari-taisha Shrine", "Sightseeing", "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882, Japan", "./img/torii.jpg");
-var sushi = new Restaurants("Japan", "Kyoto", "Sushi Iwa", "Places to eat", "〒600-8155 Kyoto, Shimogyo Ward, 角", "./img/sushi1.jpg", "Sushi", "http://www.sushiiwa.jp/en/", "+81 75-371-9303");
-var entertaining = new Entertaining("Japan", "Kyoto", "Maiko Theater", "Event", "302-2 Daikokucho, Higashiyama Ward, Kyoto, 605-0832, Japan", "./img/geisha.jpg", "Entertainment", "https://mykyotomachiya.com/japanese-language/", "$150", "Saturday 17th July 2021");
+var sushi = new Restaurants("Japan", "Kyoto", "Sushi Iwa", "Sushi Restaurant", "〒600-8155 Kyoto, Shimogyo Ward, 角", "./img/sushi1.jpg", "Sushi", "http://www.sushiiwa.jp/en/", "+81 75-371-9303");
+var entertaining = new Entertaining("Japan", "Kyoto", "Maiko Theater", "Theater", "302-2 Daikokucho, Higashiyama Ward, Kyoto, 605-0832, Japan", "./img/geisha.jpg", "Entertainment", "https://mykyotomachiya.com/japanese-language/", "€150", "Saturday 17th July 2021");
 var thailand = new Travel("Thailand", "Chiang Mai", "Wat Phra Singh", "Sightseeing", "2 Samlarn Rd, Phra Sing, Mueang Chiang Mai District, Chiang Mai 50280, Thailand", "./img/chiang-mai.jpg");
-var padThai = new Restaurants("Thailand", "Chiang Mai", "Cooking Love", "Places to eat", "18/7 Rachadamnoen Road, Soi 1, Chiang Mai 50200 Thailand", "./img/pad-thai.jpg", "Pad Thai", "https://www.facebook.com/GoodFood4You/", "+66 52 002 748");
-var show = new Entertaining("Thailand", "Chian Mai", "Chaing Mai Cultural Performance", "Event", "333 somewhere st, Chiang Mai 00000 Thailand", "./img/actor.jpg", "Entertainment", "https://www.lonelyplanet.com/thailand/activities/chiang-mai-traditional-khan-toke-meal-cultural-performance/a/pa-act/v-9592P129/357592", "$100", "Saturday 14 August 2021");
+var padThai = new Restaurants("Thailand", "Chiang Mai", "Cooking Love", "Thai Food", "18/7 Rachadamnoen Road, Soi 1, Chiang Mai 50200 Thailand", "./img/pad-thai.jpg", "Pad Thai", "https://www.facebook.com/GoodFood4You/", "+66 52 002 748");
+var show = new Entertaining("Thailand", "Chian Mai", "Chaing Mai Cultural Performance", "Performance Art", "333 somewhere st, Chiang Mai 00000 Thailand", "./img/actor.jpg", "Entertainment", "https://www.lonelyplanet.com/thailand/activities/chiang-mai-traditional-khan-toke-meal-cultural-performance/a/pa-act/v-9592P129/357592", "€100", "Saturday 14 August 2021");
 $(document).ready(function () {
     for (var i in travelArr) {
         document.getElementById("Places").innerHTML += travelArr[i].render();
