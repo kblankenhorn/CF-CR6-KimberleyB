@@ -101,12 +101,12 @@ class Entertaining extends Travel {
 }
 
 
-var tokyo = new Travel("Created: 6/6/20", "Japan", "Kyoto", "Fushimi Inari-taisha Shrine", "Sightseeing", "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882, Japan", "./img/torii.jpg");
-var sushi = new Restaurants("Created: 6/6/20","Japan", "Kyoto", "Sushi Iwa", "Sushi Restaurant", "〒600-8155 Kyoto, Shimogyo Ward, 角", "./img/sushi1.jpg", "Sushi", "http://www.sushiiwa.jp/en/", "+81 75-371-9303");
-var entertaining = new Entertaining("Created: 6/6/20","Japan", "Kyoto", "Maiko Theater", "Theater", "302-2 Daikokucho, Higashiyama Ward, Kyoto, 605-0832, Japan", "./img/geisha.jpg", "Entertainment", "https://mykyotomachiya.com/japanese-language/", "€150", "Saturday 17th July 2021");
-var thailand = new Travel("Created: 6/6/20","Thailand", "Chiang Mai", "Wat Phra Singh", "Sightseeing", "2 Samlarn Rd, Phra Sing, Mueang Chiang Mai District, Chiang Mai 50280, Thailand", "./img/chiang-mai.jpg");
-var padThai = new Restaurants("Created: 6/6/20","Thailand", "Chiang Mai", "Cooking Love", "Thai Food", "18/7 Rachadamnoen Road, Soi 1, Chiang Mai 50200 Thailand", "./img/pad-thai.jpg", "Pad Thai", "https://www.facebook.com/GoodFood4You/", "+66 52 002 748");
-var show = new Entertaining("Created: 6/6/20","Thailand", "Chian Mai", "Chaing Mai Cultural Performance", "Performance Art", "333 somewhere st, Chiang Mai 00000 Thailand", "./img/actor.jpg", "Entertainment", "https://www.lonelyplanet.com/thailand/activities/chiang-mai-traditional-khan-toke-meal-cultural-performance/a/pa-act/v-9592P129/357592", "€100", "Saturday 14 August 2021");
+var tokyo = new Travel("Created: 6.6.20 10:45", "Japan", "Kyoto", "Fushimi Inari-taisha Shrine", "Sightseeing", "68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882, Japan", "./img/torii.jpg");
+var sushi = new Restaurants("Created: 6.6.20 10:45","Japan", "Kyoto", "Sushi Iwa", "Sushi Restaurant", "〒600-8155 Kyoto, Shimogyo Ward, 角", "./img/sushi1.jpg", "Sushi", "http://www.sushiiwa.jp/en/", "+81 75-371-9303");
+var entertaining = new Entertaining("Created: 6.6.20 10:45","Japan", "Kyoto", "Maiko Theater", "Theater", "302-2 Daikokucho, Higashiyama Ward, Kyoto, 605-0832, Japan", "./img/geisha.jpg", "Entertainment", "https://mykyotomachiya.com/japanese-language/", "€150", "Saturday 17th July 2021");
+var thailand = new Travel("Created: 7.21.20 12:30","Thailand", "Chiang Mai", "Wat Phra Singh", "Sightseeing", "2 Samlarn Rd, Phra Sing, Mueang Chiang Mai District, Chiang Mai 50280, Thailand", "./img/chiang-mai.jpg");
+var padThai = new Restaurants("Created: 7.21.20 12:30","Thailand", "Chiang Mai", "Cooking Love", "Thai Food", "18/7 Rachadamnoen Road, Soi 1, Chiang Mai 50200 Thailand", "./img/pad-thai.jpg", "Pad Thai", "https://www.facebook.com/GoodFood4You/", "+66 52 002 748");
+var show = new Entertaining("Created: 7.21.20 12:30","Thailand", "Chian Mai", "Chaing Mai Cultural Performance", "Performance Art", "333 somewhere st, Chiang Mai 00000 Thailand", "./img/actor.jpg", "Entertainment", "https://www.lonelyplanet.com/thailand/activities/chiang-mai-traditional-khan-toke-meal-cultural-performance/a/pa-act/v-9592P129/357592", "€100", "Saturday 14 August 2021");
 
 $(document).ready(function(){
 	for(let i in travelArr){
